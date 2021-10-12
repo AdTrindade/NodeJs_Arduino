@@ -1,0 +1,48 @@
+:root{
+  --primary: #8ab676;
+  --light:   #ffffff;
+  --grey:    #efefef;
+  --horizontal: 400; 
+  --vertical:   300; 
+}
+
+
+body{
+  overflow: hidden;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: var(--primary);
+}
+
+.a:hover{
+  text-decoration: none;
+
+}
+
+#sidebar-dashboard{
+  min-height: 100vh;
+
+}
+
+#sidebar-dashboard .logo {
+  padding: .875rem 1.25rem;
+}
+
+#sidebar-dashboard .opcoes {
+  width: 18rem ; 
+}
+
+.bg-primary{
+  background-color: var(--primary) !important;
+}
+
+.tamanho{
+  max-width: 45px;
+}
+#conteudo{
+overflow-y: auto;
+height: 100vh;
+padding-bottom: 5em;
+}
+
+

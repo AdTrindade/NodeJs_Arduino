@@ -1,0 +1,19 @@
+{
+  "name": "NodeJs-interface",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./interface/public/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "c-struct": "^0.0.5",
+    "express": "^4.17.1",
+    "socket.io": "^3.1.2",
+    "struct": "^0.0.12",
+    "three": "^0.127.0"
+  },
+  "description": ""
+}
